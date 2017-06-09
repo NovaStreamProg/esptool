@@ -123,7 +123,8 @@ class ESPLoader(object):
     ESP_RUN_USER_CODE = 0xD3
 
     # Maximum block sized for RAM and Flash writes, respectively.
-    ESP_RAM_BLOCK   = 0x1800
+    ESP_RAM_BLOCK   = 0x80
+    ESP_FLASH_BLOCK = 0x80
 
     FLASH_WRITE_SIZE = 0x400
 
